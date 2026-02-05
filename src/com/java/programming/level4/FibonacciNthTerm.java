@@ -7,7 +7,7 @@ public class FibonacciNthTerm {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Number: ");
         int n = sc.nextInt();
-        sc.close();
+
         int a = 0, b = 1, nth = 0;
 
         if (n == 0) {
@@ -25,6 +25,7 @@ public class FibonacciNthTerm {
         }
 
         System.out.println("Nth Fibonacci number: " + nth);
+        sc.close();
     }
 }
 
