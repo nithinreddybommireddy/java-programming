@@ -19,6 +19,7 @@ public class PrintEachDigitNum {
             p--;
 
         }
+        sc.close();
 
     }
 
