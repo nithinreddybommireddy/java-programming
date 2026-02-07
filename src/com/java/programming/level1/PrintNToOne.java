@@ -12,6 +12,7 @@ public class PrintNToOne {
         {
             System.out.println(i);
         }
+        sc.close();
     }
 
 }
