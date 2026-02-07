@@ -20,7 +20,7 @@ public class SumOfEvenNum1toN
 
          }
         System.out.println(evensum);
-
+       sc.close();
     }
 
 }
