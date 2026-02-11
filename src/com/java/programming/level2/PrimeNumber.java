@@ -26,7 +26,7 @@ public class PrimeNumber {
         sc.close();
         int x = isPrime(n);
         System.out.println(x);
-
+        sc.close();
     }
 
 }
