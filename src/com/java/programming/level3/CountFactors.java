@@ -7,7 +7,6 @@ public class CountFactors {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        sc.close();
         int count = 0;
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
@@ -15,5 +14,7 @@ public class CountFactors {
             }
         }
         System.out.println("no.of factors in given number : " + count);
+        sc.close();
+
     }
 }
