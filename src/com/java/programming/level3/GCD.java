@@ -7,18 +7,18 @@ public class GCD {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
-        int a = sc.nextInt();
+        int firstNum = sc.nextInt();
 
         System.out.print("Enter second number: ");
-        int b = sc.nextInt();
+        int secondNum = sc.nextInt();
 
-        while (b != 0) {
-            int temp = b;
-            b = a % b;
-            a = temp;
+        while (secondNum != 0) {
+            int temp = secondNum;
+            secondNum = firstNum % secondNum;
+            firstNum = temp;
         }
 
-        System.out.println("GCD / HCF = " + a);
+        System.out.println("GCD / HCF = " + firstNum);
         sc.close();
     }
 }
